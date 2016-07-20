@@ -1,0 +1,121 @@
+.navbar {
+  background-color: #f2f2f2;
+  border-top: 5px solid #ff1a00;
+  margin-bottom: 60px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.logo {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Helvetica", sans-serif;
+  font-size: 18px
+}
+.logo img {
+  width: 100px;
+}
+img.search {
+  width: 20px;
+  margin-left: 100px;
+}
+.navbar ul {
+   display: flex;
+   flex-direction: row;
+   text-align: left;
+   margin: 0px;
+}
+.navbar li {
+   list-style: none;
+   padding: 40px 20px 40px 20px;
+
+}
+.navbar li a {
+   font-family: "Helvetica", sans-serif;
+   font-size: 16px;
+   text-decoration: none;
+   color: #000000;
+ }
+ header {
+   background-color: #f2f2f2;
+ }
+ .content {
+   padding-left: 20%;
+   padding-right: 20%;
+ }
+ h1 {
+   text-align: center;
+   font-family: "helvetica", sans-serif;
+   font-size: 35px;
+   color: #5b5b5b;
+   margin: 0px;
+   margin-bottom: 5px;
+ }
+ h2 {
+   color: #5b5b5b;
+   font-family: "helvetica", sans-serif;
+   font-size: 16px;
+   text-align: center;
+   margin: 0px;
+   font-weight: normal;
+ }
+ .galleryrow {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 50px;
+ }
+ .gallery1 {
+   flex-basis:500px;
+   flex-grow: 3;
+   flex-shrink: 0;
+   flex-basis: 500px;
+ }
+ .gallery2 {
+   height: 250px;
+   flex-basis:300px;
+   flex-grow: 2;
+   flex-shrink: 0;
+ }
+ footer {
+   display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-content: flex-start;
+   align-items: flex-start;
+}
+ .footer1 {
+   width: 300px;
+   height: 250px;
+   flex-shrink: 0;
+   flex-basis: 200px;
+   padding-right: 10px;
+   font-family: "helvetica", sans-serif;
+   font-size: 12px;
+ }
+ .footer1 h3 {
+   color: red;
+   font-weight: bold;
+ }
+ .footer2 {
+   width: 300px;
+   height: 250px;
+   flex-grow: 1;
+   flex-shrink: 0;
+   flex-basis: 200px;
+   font-family: "helvetica", sans-serif;
+ }
+ .footer2 p {
+   column-count: 3;
+   padding-top: 0px;
+   font-size: 12px;
+ }
+
+ .footer2 h3 {
+   color: #5b5b5b;
+   font-weight: bold;
+   margin-bottom: 0px;
+   font-size: 16px;
+ }
